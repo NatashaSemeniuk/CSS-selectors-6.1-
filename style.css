@@ -1,0 +1,71 @@
+p {
+    font-family: "ProximaNova";
+    text-align: center;
+    color: rgb(157, 157, 157);
+    font-size: 14px;
+    line-height: 1.429;
+    width: 220px;
+}
+
+div>p {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section {
+    margin: 50px;
+}
+
+.circle {
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(18, 117, 185);
+    border-radius: 50%;
+    width: 69px;
+    height: 67px;
+    margin: auto;
+}
+
+.general {
+    background: repeating-linear-gradient(90deg, #ffe5e5 0 60px, transparent 0 80px);
+    margin: auto;
+    width: 1100px;
+    height: 289px;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    margin: auto;
+}
+
+#tab {
+    background: url(img/Tablet.png) no-repeat 50% 50%;
+}
+
+#set {
+    background: url(img/Settings.png) no-repeat 50% 50%;
+}
+
+#dash {
+    background: url(img/Dashboard.png) no-repeat 50% 50%;
+}
+
+#set, #dash {
+    background-color: rgb(18, 117, 185);
+}
+
+a#set:hover {
+    background: url(img/Settings_blue.png) no-repeat 50% 50%;
+}
+
+a#dash:hover {
+    background: url(img/Dashboard_blue.png) no-repeat 50% 50%;
+}
+
+a#dash:hover, a#set:hover, a#tab:hover {
+    background-color: #ffffff;
+}
